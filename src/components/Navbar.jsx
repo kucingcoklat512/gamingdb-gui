@@ -7,7 +7,7 @@ const Navbar = ({ handleLogout }) => {
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold">My GameList</h1>
         <div>
-          <a href="https://gamingdb-fix.vercel.app/swagger" target="_blank" rel="noopener noreferrer">
+          <Link href="https://gamingdb-fix.vercel.app/swagger" target="_blank" rel="noopener noreferrer">
             API Docs
           </a>
           <Link to="/games" className="mr-4 hover:underline">
